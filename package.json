@@ -1,16 +1,16 @@
 {
-	"name": "github-plus-theme",
-	"displayName": "GitHub Plus Theme",
-	"description": "A GitHub inspired color theme for VSCode code and interface!",
-	"version": "1.4.4",
+	"name": "nikso-vscode-theme",
+	"displayName": "Nikso Theme",
+	"description": "My personal color theme for VSCode code and interface!",
+	"version": "2.0.0",
 	"publisher": "thenikso",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thenikso/github-plus-theme"
+		"url": "https://github.com/thenikso/nikso-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/thenikso/github-plus-theme/issues"
+		"url": "https://github.com/thenikso/nikso-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.16.0"
@@ -21,9 +21,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "GitHub Plus",
+				"label": "Nikso Plus",
 				"uiTheme": "vs",
-				"path": "./themes/github-plus-theme.json"
+				"path": "./themes/nikso-vscode-theme.json"
+			},
+      {
+				"label": "Nikso Plus Dark",
+				"uiTheme": "vs",
+				"path": "./themes/nikso-vscode-theme-dark.json"
 			}
 		]
 	},

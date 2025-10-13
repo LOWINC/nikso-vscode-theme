@@ -1,5 +1,9 @@
 # Change Log
-All notable [changes](http://keepachangelog.com) to the "GitHub Plus Theme" extension will be documented in this file.
+All notable [changes](http://keepachangelog.com) to the "Nikso VSCode Theme" extension will be documented in this file.
+
+## [2.0.0] - 2025-10-13
+### Changed
+- Renamed project from "github-plus" to "nikso-vscode-theme" and bumped package version to 2.0.0.
 
 ## [1.4.4] - 2024-12-18
 ### Added
@@ -42,4 +46,4 @@ All notable [changes](http://keepachangelog.com) to the "GitHub Plus Theme" exte
 
 ## [1.0.0] - 2017-09-15
 ### Added
-- Full GitHub plus theme
+- Full theme

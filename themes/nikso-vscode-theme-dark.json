@@ -1,47 +1,46 @@
 {
-  "type": "light",
-  // Reference https://code.visualstudio.com/api/references/theme-color
+  "type": "dark",
   "colors": {
-    "focusBorder": "#fafbfc",
-    "inputOption.activeBorder": "#e36209",
-    "editor.background": "#ffffff",
-    "editor.foreground": "#24292e",
-    "editor.lineHighlightBackground": "#fffbdd",
-    "editorIndentGuide.background": "#eeeeee",
-    "editorLineNumber.foreground": "#cccccc",
-    "editorBracketMatch.background": "#f1f8ff",
-    "editorBracketMatch.border": "#c8e1ff",
-    "titleBar.activeBackground": "#fafbfc",
-    "titleBar.border": "#e1e4e8",
-    "statusBar.foreground": "#24292e",
-    "statusBar.noFolderForeground": "#24292e",
-    "statusBar.background": "#fafbfc",
-    "statusBar.noFolderBackground": "#fafbfc",
-    "statusBar.border": "#e1e4e8",
-    "statusBar.debuggingBackground": "#fafbfc",
-    "statusBar.debuggingForeground": "#24292e",
-    "activityBar.background": "#24292e",
-    "activityBar.foreground": "#fafbfc",
-    "activityBarBadge.background": "#54a3ff",
-    "sideBar.background": "#fafbfc",
-    "sideBar.foreground": "#586069",
-    "sideBar.border": "#e1e4e8",
-    "sideBarTitle.foreground": "#24292e",
-    "sideBarSectionHeader.background": "#F1F2F3",
-    "sideBarSectionHeader.foreground": "#24292e",
-    "notification.background": "#54a3ff",
-    "editorGroupHeader.tabsBackground": "#fafbfc",
-    "editorGroupHeader.tabsBorder": "#e1e4e8",
-    "editorStickyScroll.shadow": "#c0c0c0",
-    "sideBarStickyScroll.shadow": "#c0c0c0",
-    "tab.activeBackground": "#ffffff",
-    "tab.activeBorder": "#e36209",
-    "tab.inactiveBackground": "#fafbfc",
-    "tab.border": "#e1e4e8",
-    "tab.inactiveForeground": "#586069",
+    "focusBorder": "#dce0e5ff",
+    "inputOption.activeBorder": "#47679eff",
+    "editor.background": "#282c33ff",
+    "editor.foreground": "#d1d7e0ff",
+    "editor.lineHighlightBackground": "#2f343ebf",
+    "editorIndentGuide.background": "#c8ccd40d",
+    "editorLineNumber.foreground": "#4e5a5f",
+    "editorBracketMatch.background": "#74ade81a",
+    "editorBracketMatch.border": "#74ade8ff",
+    "titleBar.activeBackground": "#3b414dff",
+    "titleBar.border": "#464b57ff",
+    "statusBar.foreground": "#dce0e5ff",
+    "statusBar.noFolderForeground": "#dce0e5ff",
+    "statusBar.background": "#3b414dff",
+    "statusBar.noFolderBackground": "#3b414dff",
+    "statusBar.border": "#464b57ff",
+    "statusBar.debuggingBackground": "#3b414dff",
+    "statusBar.debuggingForeground": "#dce0e5ff",
+    "activityBar.background": "#282c33ff",
+    "activityBar.foreground": "#dce0e5ff",
+    "activityBarBadge.background": "#74ade8ff",
+    "sideBar.background": "#2f343eff",
+    "sideBar.foreground": "#a9afbcff",
+    "sideBar.border": "#464b57ff",
+    "sideBarTitle.foreground": "#dce0e5ff",
+    "sideBarSectionHeader.background": "#2f343eff",
+    "sideBarSectionHeader.foreground": "#dce0e5ff",
+    "notification.background": "#74ade8ff",
+    "editorGroupHeader.tabsBackground": "#2f343eff",
+    "editorGroupHeader.tabsBorder": "#464b57ff",
+    "editorStickyScroll.shadow": "#c8ccd44c",
+    "sideBarStickyScroll.shadow": "#c8ccd44c",
+    "tab.activeBackground": "#282c33ff",
+    "tab.activeBorder": "#47679eff",
+    "tab.inactiveBackground": "#2f343eff",
+    "tab.border": "#464b57ff",
+    "tab.inactiveForeground": "#a9afbcff",
     "scrollbar.shadow": "#00000000",
-    "quickInputList.focusBackground": "#e7e6e5",
-    "quickInputList.focusForeground": "#24292e",
+    "quickInputList.focusBackground": "#363c46ff",
+    "quickInputList.focusForeground": "#dce0e5ff",
     "list.highlightForeground": "#0066BF",
     "list.focusHighlightForeground": "#0066BF",
     "list.focusBackground": "#E4E6F1",
@@ -66,7 +65,6 @@
     "terminal.ansiBrightWhite": "#E0E0E0",
     "terminalCursor.foreground": "#363636"
   },
-  // User command "Inspect Editor Tokens and Scopes" to know which scope to color
   "tokenColors": [
     {
       "settings": {
@@ -153,7 +151,6 @@
         "storage.type",
         "storage.control.clojure",
         "entity.name.function.clojure",
-        // NON github
         "support.function.node",
         "support.type.property-name.json",
         "punctuation.separator.key-value",
@@ -166,7 +163,6 @@
       }
     },
     {
-      // NON Github
       "scope": "variable.parameter.function",
       "settings": {
         "foreground": "#E27F2D"
@@ -187,7 +183,6 @@
       }
     },
     {
-      // NON Github
       "scope": [
         "entity.name.tag",
         "string.quoted",
@@ -252,7 +247,6 @@
       }
     },
     {
-      // NON Github
       "scope": [
         "constant.numeric.css",
         "support.function.misc.css",

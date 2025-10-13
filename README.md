@@ -1,11 +1,10 @@
-# GitHub Plus Theme
+# Nikso VSCode Theme
 
-A full [VSCode](https://code.visualstudio.com/) editor theme inspired by the
-GitHub color scheme.
+A full [VSCode](https://code.visualstudio.com/) editor theme.
 
 ![screenshot](./screenshot.jpg)
 
-Use [GitHub issues](https://github.com/thenikso/github-plus-theme) to report problems/requests (it might take a while to get feedback)
+Use [GitHub issues](https://github.com/thenikso/nikso-vscode-theme) to report problems/requests (it might take a while to get feedback)
 
 ## Extras
 
